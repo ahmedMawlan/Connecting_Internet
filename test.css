@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+button {
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(40, 53, 52);
+    color: white;
+    cursor: pointer;
+}
